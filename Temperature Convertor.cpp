@@ -16,7 +16,7 @@ int main()
     {
         cout<<"\n Enter the temperature in Kelvin";
         cin>>k;
-        c=273-k;
+        c=k-1273;
         cout<<"\n Temperature in Celsius="<<c;
     }
     else if(ch==2)
