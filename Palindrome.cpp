@@ -7,7 +7,7 @@ int main()
     int rev=0,n,rem;
     cout<<"\n Enter the number which is to be checked";
     cin>>n;
-    int temp=n
+    int temp=n;
     /* Reversing a number using while loop */
     while (n!=0)
     {
