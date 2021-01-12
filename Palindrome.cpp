@@ -7,6 +7,7 @@ int main()
     int rev=0,n,rem;
     cout<<"\n Enter the number which is to be checked";
     cin>>n;
+    int temp=n
     /* Reversing a number using while loop */
     while (n!=0)
     {
@@ -15,7 +16,7 @@ int main()
         n/=10;
     }
     /* Checking if the input satisfies the definition of the palindrome using if condition */
-    if(n==rev)
+    if(temp==rev)
     {
         cout<<"\n Number is a palindrome";
    
