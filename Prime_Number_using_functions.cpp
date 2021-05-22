@@ -7,7 +7,8 @@ void prime()
     int n,flag=0;
     cout<<"\n Enter the number";
     cin>>n;
-    for(int i=2;i<(n/2);i++)
+     //For any number you'll find at least one factor in order to judge if the number is a prime number within the range the square root of the number
+    for(int i=2;i<=sqrt(n/2);i++)
     {
         if(n%i==0)
         {
