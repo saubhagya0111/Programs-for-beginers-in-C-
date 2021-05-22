@@ -18,7 +18,8 @@ int main()
         flag=1;
         //Initialising the flag variable as 1 by default in the loop
         //Loop to determine the number of factors of each individual number by checking the divisibility
-        for(int j=2;j<=(i/2);j++)
+        //For any number you'll find at least one factor in order to judge if the number is a prime number within the range the square root of the number
+        for(int j=2;j<=sqrt(i);j++)
         {
             if(i%j==0)
             {
